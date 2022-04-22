@@ -6,29 +6,29 @@ namespace OOP1
     {
         static void Main(string[] args)
         {
-            Plaer plaer = new Plaer();
-            plaer.ShowPlaer();
+            Player plaer = new Player();
+            plaer.ShowParametrs();
 
             Console.ReadKey();
         }
     }
 
-    class Plaer
+    class Player
     {
-        int _healt;
-        int _stamina;
-        int _speed;
+       private int _health;
+       private int _stamina;
+       private int _speed;
 
-       public Plaer()
+       public Player()
         {
-            _healt = 500;
+            _health = 500;
             _stamina = 100;
             _speed = 5;
         }
 
-        public void ShowPlaer()
+        public void ShowParametrs()
         {
-            Console.WriteLine("Жизнь = " + _healt + "\nВыносливость = " + _stamina + "\nСкорость = " + _speed);
+            Console.WriteLine("Жизнь = " + _health + "\nВыносливость = " + _stamina + "\nСкорость = " + _speed);
         }
 
     }

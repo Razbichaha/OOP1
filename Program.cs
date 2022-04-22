@@ -6,8 +6,8 @@ namespace OOP1
     {
         static void Main(string[] args)
         {
-            Player plaer = new Player();
-            plaer.ShowParametrs();
+            Player player = new Player();
+            player.ShowParametrs();
 
             Console.ReadKey();
         }
